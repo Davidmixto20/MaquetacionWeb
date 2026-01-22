@@ -539,3 +539,126 @@ section .mapa iframe{
   margin-top: 30px;
   margin-bottom: 50px;
 }
+
+@media (max-width: 768px) {
+
+  .NavBar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  header a img {
+    left: 0;
+    margin-bottom: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .FondoContainer {
+    height: 400px;
+  }
+
+  .FondoContainer h1 {
+    font-size: 24px;
+    text-align: center;
+    top: 0;
+    padding: 0 15px;
+  }
+
+  .ContenedorCards {
+    flex-direction: column;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .Card {
+    width: 90%;
+    height: auto;
+  }
+
+  section > article > .TituloPro {
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .NOS-IMG {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .NosImg1,
+  .NosImg2,
+  .NosImg3 {
+    position: static;
+    width: 90%;
+  }
+
+  .UEA {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .contenedor {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .texto,
+  .HistoriaImg {
+    width: 100%;
+    text-align: center;
+  }
+
+  .HistoriaImg img {
+    height: auto;
+  }
+
+  .historia2 {
+    flex-direction: column;
+  }
+
+  .Historia2Img,
+  .HisText2 {
+    width: 100%;
+  }
+
+  .contacto {
+    position: static;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .contenedor-form {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .form input[type="submit"] {
+    left: 0;
+    margin: 0 auto;
+  }
+
+  section .mapa iframe {
+    width: 90%;
+    height: 300px;
+    left: 0;
+    display: block;
+    margin: 0 auto 40px;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .footer-bottom img {
+    width: 90%;
+  }
+}
