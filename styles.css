@@ -8,6 +8,12 @@ html {
   scroll-behavior: smooth;
 }
 
+header a img {
+  width: 100px;
+  position: relative;
+  left: 50px;
+}
+
 .NavBar {
   display: flex;
   justify-content: space-between;
@@ -18,10 +24,12 @@ html {
   position: fixed;
   width: 100%;
   z-index: 8;
+  border-bottom: 1px solid black;
+  box-shadow: 1px 1px 10px;
 }
 
 
-a {
+nav a {
   color: black;
   text-decoration: none;
   margin: 0 15px;
@@ -29,7 +37,7 @@ a {
   border-radius: 10px;
 }
 
-a:hover {
+nav a:hover {
   transition: 0.3s;
   background-color: rgb(137, 170, 181);
   color: white;
@@ -286,4 +294,248 @@ p {
   line-height: 1.8;
   text-align: justify;
   font-size: 18px;
+}
+
+.Valor1Img,
+.Valor2Img,
+.Valor3Img,
+.Valor4Img {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.Contenedor-valores {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.TituloValores h1 {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+}
+
+.Valores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.Valores article {
+  width: 230px;
+  padding: 20px;
+  text-align: center;
+}
+
+.Valores img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.Valores h2 {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.Valores p {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #1c1c1c;
+  padding: 70px 40px 40px;
+}
+
+.footer-top h1 {
+  color: #ff5a6e;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+.footer-columns {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.footer-col a {
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: #858585;
+  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.footer-col a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footer-bottom img {
+  width: 660px;
+}
+
+.Contenedor-contacto {
+  position: relative;
+  background-color: lightblue;
+  background-image: url(https://cdn.prod.website-files.com/622a23e0b6ea18a88e1314a3/626ce70d910685086f1ed659_Contacto_transparente%20gloop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+}
+
+.contacto {
+  position: absolute;
+  left: 80px;
+  top: 100px;
+}
+
+.contacto h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.contacto p {
+  font-weight: 500;
+}
+
+.contacto button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  width: 80%;
+  height: 60px;
+  font-size: 24px;
+  color: white;
+  background-color: rgb(224, 147, 3);
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px black;
+}
+
+.contacto button:hover {
+  transition: 0.6s;
+  box-shadow: 5px 10px 10px black;
+}
+
+.Escribenos .First-part {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.Escribenos .First-part p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.contenedor-form {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  margin-bottom: 40px;
+}
+
+.left-part {
+  width: 280px;
+}
+
+.left-part img {
+  filter: invert(1);
+  width: 30%;
+}
+
+.form {
+  width: 400px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form label {
+  font-family: "Poppins", sans-serif;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 3px solid #000000;
+  border-radius: 10px;
+}
+
+.form textarea {
+  min-height: 120px;
+}
+
+.form input[type="submit"] {
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 200px;
+  position: relative;
+  left: 90px;
+  background-color: rgb(255, 68, 0);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.PP1 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+}
+
+.PP2 {
+  font-size: 20px;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+section .mapa iframe{
+  border-radius: 20px;
+  border: 3px solid black;
+  position: relative;
+  left: 300px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
